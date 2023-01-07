@@ -1,6 +1,7 @@
 # ITMO Studies
 
-### Programming labs
+
+### Programming (Java)
 
 - [***[lab1]*** Introduction to Java](https://github.com/ruddnevITMO/s1-prog-lab1)
 - [***[lab2]*** Pokemons](https://github.com/ruddnevITMO/s1-prog-lab2)
@@ -14,3 +15,4 @@
 ### Mathematical analysis
 
 - [Useful materials for a colloquium](https://github.com/ruddnevITMO/s1-ma-colloquium) [***[as a website]***](https://ruddnevITMO.github.io/s1-ma-colloquium)
+
