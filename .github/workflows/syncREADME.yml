@@ -1,0 +1,19 @@
+name: Synchronize README.md with main repository
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */1 * * *
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+      - name: Synchronize
+        run: |
+          mainRepo="ruddnev/ITMO"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"
+          wget -O README.md.main https://raw.githubusercontent.com/${mainRepo}/main/README.md
+          if cmp --silent -- "profile/README.md" "README.md.main"; then echo no changes; else mv -f README.md.main profile/README.md; git commit -am "synchronizing README.md with ${mainRepo} repository"; git push; fi 
