@@ -1,11 +1,8 @@
 # [ITMO Studies](https://github.com/ruddnev/ITMO)
 
+
 <details>
-<summary>
-
-##  Semester 1
-
-</summary>
+<summary style="font-size:1.25em"><strong>Semester 1</strong></summary>
 
 ### Programming (Java)
 
@@ -30,17 +27,27 @@
 </details>
 
 
-<details open>
-<summary>
-
-##  Semester 2
-
-</summary>
+<details>
+<summary style="font-size:1.25em"><strong>Semester 2</strong></summary>
 
 ### Programming (Java)
 
 - [***[lab5]*** Collections](https://github.com/ruddnevITMO/s2-prog-lab5)
 - [***[lab6]*** Collections with Client-Server implementation](https://github.com/ruddnevITMO/s2-prog-lab6)
 - [***[lab7]*** Client-Server collection with DB](https://github.com/ruddnevITMO/s2-prog-lab7)
+- [***[lab8]*** Client-Server collection with DB and GUI](https://github.com/ruddnevITMO/s2-prog-lab8)
+  - [***[lab8-task]*** Maze game preparation](https://github.com/ruddnevITMO/s2-prog-lab8prep)
+  - [***[lab8-task]*** Task game based on Flats locations](https://github.com/ruddnevITMO/s2-prog-lab8game)
 
 </details>
+
+<details open>
+<summary style="font-size:1.25em"><strong>Semester 3</strong></summary>
+
+### Linear algebra
+
+- [Final project ‭«Линалгеброзация»](https://github.com/ruddnevITMO/s3-pla-project)
+  - [As a website](https://ruddnevITMO.github.io/s3-pla-project)
+
+</details>
+
